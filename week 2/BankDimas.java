@@ -17,5 +17,6 @@ public class BankDimas {
 
         System.out.println("Bunga adalah " + bunga);
         System.out.println("Jumlah tabungan akhir Anda adalah " + jml_tabungan_akhir);
+        sc.close();
     }
 }

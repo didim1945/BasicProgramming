@@ -6,7 +6,8 @@ public class GajiKaryawan {
         Scanner sc = new Scanner(System.in);
 
         int gajiPokok;
-        double bonus, totGaji;
+        int totGaji;
+        double bonus;
         double tunjTransp = 600000;
         double tunjMkn = 400000;
         
@@ -15,7 +16,7 @@ public class GajiKaryawan {
 
         bonus = 0.05 * gajiPokok;
 
-        totGaji = gajiPokok + tunjTransp + tunjMkn + bonus - (0.1 * gajiPokok);
+        totGaji = (int) (gajiPokok + tunjTransp + tunjMkn + bonus - (0.1 * gajiPokok));
 
         System.out.println("Bonus bulanan Anda adalah Rp.  " + bonus);
         System.out.print("Gaji yang diterima adalah Rp. " + totGaji);

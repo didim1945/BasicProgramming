@@ -17,5 +17,6 @@ public class StudiKasus1JB2 {
         double totalGaji = (gajiPokok - (gajiPokok * danaPensiun)) + (tunjanganAnak * jumlahAnak);
 
         System.out.print("Gaji bersih Pak Danur perbulannya adalah " + totalGaji);
+        sc.close();
     }
 }
