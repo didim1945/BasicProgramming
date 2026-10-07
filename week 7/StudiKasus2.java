@@ -16,7 +16,8 @@ public class StudiKasus2 {
         System.out.print("Jenis kegiatan (BELMAWA/BAKORMA/MANDIRI/PKM/LAINNYA) : ");
         jenisKegiatan = sc.nextLine();
 
-        if (jenisKegiatan.equalsIgnoreCase("BELMAWA") || jenisKegiatan.equalsIgnoreCase("BAKORMA") || jenisKegiatan.equalsIgnoreCase("MANDIRI")) {
+        if (jenisKegiatan.equalsIgnoreCase("BELMAWA") || jenisKegiatan.equalsIgnoreCase("BAKORMA")
+                || jenisKegiatan.equalsIgnoreCase("MANDIRI")) {
             System.out.print("Jumlah dokumen (0-4) : ");
             jumlDokumen = sc.nextInt();
             if (jumlDokumen < 4) {
@@ -40,7 +41,7 @@ public class StudiKasus2 {
                 status = "Dokumen tidak lengkap (kurang " + kurang + " dokumen). Dana penghargaan tidak diberikan";
             } else {
                 System.out.print("Status pendanaan (1 = lolos, 0 = tidak lolos) : ");
-                int pendanaan =  sc.nextInt();
+                int pendanaan = sc.nextInt();
                 if (pendanaan == 1) {
                     status = "Dana penghargaan diberikan";
                 } else {
