@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class nestedAksesLab12 {
+public class NestedAksesLab12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -11,7 +11,7 @@ public class nestedAksesLab12 {
         mahasiswaAktif = sc.nextBoolean();
         System.out.print("Apakah sedang disanksi? (true/false): ");
         sedangDisanksi = sc.nextBoolean();
-        
+         
         if (mahasiswaAktif && !sedangDisanksi) {
             System.out.print("\nApakah punya izin dosen? (true/false): ");
             punyaIzinDosen = sc.nextBoolean();
