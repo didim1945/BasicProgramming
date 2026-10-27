@@ -12,7 +12,7 @@ public class Bioskop12 {
             System.out.println("\n--- TIKET BIOSKOP ---");
             System.out.print("Masukkan jumlah tiket: ");
             jmlTiket = sc.nextInt();
-        } while (jmlTiket < 1);
+        } while (jmlTiket < 0);
 
         if (jmlTiket > 10) {
             diskon = 0.15;
