@@ -7,7 +7,11 @@ public class Parkir12 {
         int jenis, durasi, total = 0;
 
         do {
-            System.out.print("Masukkan jenis (1. Mobil, 2. Motor, 0. Keluar): ");
+            System.out.println("\n--- PARKIR KENDARAAN ---");
+            System.out.println("1. Mobil");
+            System.out.println("2. Motor");
+            System.out.println("0. Keluar");
+            System.out.print("Masukkan jenis: ");
             jenis = sc.nextInt();
             if (jenis == 1 || jenis == 2) {
                 System.out.print("Masukkan durasi: ");
