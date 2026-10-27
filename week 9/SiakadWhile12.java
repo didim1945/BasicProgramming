@@ -6,11 +6,12 @@ public class SiakadWhile12 {
 
         int nilai, jml,i = 0;
 
+        System.out.println("--- SIAKAD ---");
         System.out.print("Masukkan jumlah mahasiswa: ");
         jml = sc.nextInt();
 
         while (i < jml) {
-            System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
+            System.out.print("\nMasukkan nilai mahasiswa ke-" + (i + 1) + ": ");
             nilai = sc.nextInt();
 
             if (nilai < 0 || nilai > 100) {
@@ -19,6 +20,7 @@ public class SiakadWhile12 {
             }
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai mahasiswa ke-" + (i+1) + " adalah A");
+                System.out.println("Bagus, pertahankan nilainya!");
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("Nilai mahasiswa ke-" + (i+1) + " adalah B+");
             } else if (nilai > 65 && nilai <= 73) {
