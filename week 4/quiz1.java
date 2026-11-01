@@ -94,7 +94,6 @@ public class quiz1 {
         System.out.println("Rata-rata keuntungan dari semua transaksi adalah Rp. " + rataKeuntungan);
 
 
-
         // === PERSENTASE KONTRIBUSI ===
         System.out.println("\n === PERSENTASE KONTRIBUSI MAASING-MASING MITRA ===");
         
