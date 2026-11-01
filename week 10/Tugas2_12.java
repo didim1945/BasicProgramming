@@ -25,5 +25,6 @@ public class Tugas2_12 {
                 kondisi = false;
             }
         } while (kondisi);
+        sc.close();;
     }
 }
